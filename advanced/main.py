@@ -8,13 +8,13 @@ mission_route = (
 )
 
 # first destination
-print("First destination:", mission_route[0])
+print("first destination:", mission_route[0])
 
 # last destination
-print("Last destination:", mission_route[-1])
+print("last destination:", mission_route[-1])
 
 # total number of destinations
-print("Total destinations:", len(mission_route))
+print("total destinations:", len(mission_route))
 
 # destinations in order
 print("mission Route:")
@@ -27,7 +27,7 @@ if "Europa" in mission_route:
 else:
     print("Europa is not included in the mission route")
 
-search_destination = input("Enter a destination to search: ")
+search_destination = input("Enter a destination you want to search: ")
 
 if search_destination in mission_route:
 
